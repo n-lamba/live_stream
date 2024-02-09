@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h2{
+  margin-left: 20px;
+  
+}
+
+.popup-container {
+  flex-direction: column;
+  align-items: center; 
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.popup-container label {
+  margin-bottom: 5px;
+  display: inline-block; /* Change display to inline-block */
+}
+.modal label{
+  margin-bottom: 5px;
+  display: inline-block; 
+}
+.popup-container input {
+  margin-bottom: 10px;
+  display: inline-block; /* Change display to inline-block */
+}
+.modal input{
+  margin-bottom: 10px;
+  display: inline-block; 
+}
+.popup-container button {
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  display: block; /* Set display to block for proper spacing */
+  width: 120px;
+}
+.modal button{
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  display: block; /* Set display to block for proper spacing */
+  width: 120px; 
+}
+.modal{
+  position: absolute;
+  flex-direction: column;
+  align-items: center; 
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.modal .close{ 
+  align-items: right;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.popup-container .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
